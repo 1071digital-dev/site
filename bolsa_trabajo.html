@@ -350,8 +350,31 @@
 <script src='http://s3-us-west-2.amazonaws.com/s.cdpn.io/82015/Projector.js'></script>
 <script src='http://s3-us-west-2.amazonaws.com/s.cdpn.io/82015/CanvasRenderer.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r14/Stats.min.js'></script>
+<!-- jQuery-2.2.4 js -->
+    <script type="text/javascript">
 
-   
+        $('li a').on('click', function (e) {
+    var targetSec = $(this).attr('data-link');
+    $('html, body').animate({
+        scrollTop: $('#' + targetSec).offset().top
+    }, 1000);
+});
+
+         $('.nav-item').on('click', function (e) {
+    if($("#mosh-navbar").hasClass('show')){
+        $("#mosh-navbar").removeClass('show');
+    }
+});
+        
+       
+
+        $('li a').on('click', function (e) {
+            var targetSec = $(this).attr('data-link');
+            $('html, body').animate({
+                scrollTop: $('#' + targetSec).offset().top
+            }, 1000);
+        });
+        </script>
     
 </body>
 
