@@ -27,7 +27,13 @@
 
     .nav-logo{
     display: none;
+}
+    #imagen1{
+    	height: 20em;
   }
+  	#imagen2{
+  		display: none;
+  	}
 
 }
 
