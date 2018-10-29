@@ -22,6 +22,12 @@
      max-width: 50%;
       max-height: 6em;
   }
+  #imagen1{
+    	height: 68em !important;
+  }
+  	#imagen2{
+  		height: 68em !important;
+  	}
 
 @media (max-width: 768px){
 
