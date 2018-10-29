@@ -1067,6 +1067,10 @@ span.accor-open {
     margin-bottom: 50px;
 }
 
+.few-words-text p {
+    color: white;
+}
+
 .few-words-text .section-heading h2 {
     color: #fff;
 }
