@@ -1067,9 +1067,7 @@ span.accor-open {
     margin-bottom: 50px;
 }
 
-.few-words-text p {
-    color: white;
-}
+
 
 .few-words-text .section-heading h2 {
     color: #fff;
@@ -1077,6 +1075,7 @@ span.accor-open {
 
 .few-words-text > p {
     margin-bottom: 0;
+    color: white;
 }
 
 .ceo-meta-data .ceo-thumb {
