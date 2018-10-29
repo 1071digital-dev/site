@@ -29,7 +29,7 @@
     display: none;
 }
     #imagen1{
-    	height: 20em;
+    	height: 20em !important;
   }
   	#imagen2{
   		display: none;
